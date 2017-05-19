@@ -15,7 +15,7 @@ Install
 Code example:
 
 ```javascript
-var C2P = require('./callback-2-promise');
+var C2P = require('callback-2-promise');
 
 function veryLongRun(callback) {
   // Your stuffs...
@@ -48,6 +48,6 @@ Error callback will call when the task failure with an error
 Pair callback merge ErrorCallback and FulfilCallback.
 
 * No params
-* Return callback `function ([any object] error, [any object] result)`. If `error = null`, resolve, `error != null`, reject.
+* Return callback `function ([any object] error, [any object] result)`. If `error = null`, resolve, otherwise reject.
 
 ## Feel free to add an issue

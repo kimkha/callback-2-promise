@@ -1,6 +1,6 @@
 {
   "name": "callback-2-promise",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Convert callback to Promise",
   "main": "callback-2-promise.js",
   "scripts": {
@@ -12,6 +12,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+http://gitlab.waterlink.io/setfil/aor-setfil-customize.git"
+    "url": "https://github.com/kimkha/callback-2-promise.git"
   }
 }
